@@ -1,3 +1,4 @@
+
 html,body {
   box-sizing: border-box;
   font-family: Abel;
@@ -28,9 +29,8 @@ button:hover {
 }
 
 #todo {
-    margin: 0 auto ;
-    max-width: 320px;
-    height:100%;
+  width:30%;
+    margin: 0 auto;
 }
 
 
@@ -46,16 +46,25 @@ input {
     border-radius: 5px;
 }
 
-.todo-list {
-  padding:0;
-}
 
 .todo-list li{
   list-style-type:none;
+  color:red;
 }
+
 
 input[type=checkbox], input[type=radio] {
     vertical-align: middle;
     position: relative;
     bottom: 1px;
+}
+
+#done-list{
+  color:green;
+  list-style-type:none;
+  text-align:left;
+}
+
+ul{
+  padding-inline-start:0;
 }
