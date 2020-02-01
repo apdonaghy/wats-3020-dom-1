@@ -1,3 +1,10 @@
+/*
+Description: A program that uses "vanilla .js" to make an interactive to-do list. The user is given an input field to add to-do content to and then the program allows them to check off the items they added when completed (this version adds them to another list called the "done list" instead of using the "line-through" method), so they have a visual record of what they've finished. 
+Input: a string
+Output: displays/lists items that user adds to input
+Usage: runs in the browser
+*/
+
 document.addEventListener('DOMContentLoaded', (event) => {
 
   document.addEventListener('submit', (event) => {
